@@ -1,0 +1,358 @@
+@import './variables';
+
+.why-choose-sec {
+    h3 {
+        font-size: $fs-32;
+        font-weight: $fw-500;
+        color: $color-alizarinCrimson;
+        font-family: $font-poppins;
+        text-align: center;
+    }
+
+    .bg-color {
+        background-color: $bg-primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // overflow: hidden;
+        border-radius: $border-10;
+
+        .down-triangle {
+            background-image: url("../images/traingle-img.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            width: 600px;
+            height: 400px;
+            margin-top: -200px;
+
+
+            .slider {
+                overflow: hidden;
+                width: 90%;
+                height: 400px;
+                margin: auto;
+
+                .slides {
+                    display: flex;
+                    animation: slide 14s infinite linear;
+
+                    .slide {
+                        flex: 0 0 auto;
+                        width: 100%;
+                    }
+
+                    @keyframes slide {
+                        0% {
+                            transform: translateX(0);
+                        }
+
+                        33.33% {
+                            transform: translateX(-100%);
+                        }
+
+                        66.67% {
+                            transform: translateX(-200%);
+                        }
+
+                        100% {
+                            transform: translateX(-300%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.center-excellence-sec {
+    background-color: $bg-primary;
+
+    h3 {
+        font-size: $fs-32;
+        color: $color-white;
+        font-weight: $fw-600;
+        text-align: center;
+        font-family: $font-poppins;
+    }
+
+    .card {
+        width: 350px;
+
+        img {
+            border-radius: $border-5;
+            height: 300px;
+        }
+
+        h5 {
+            font-size: $fs-20;
+            color: $color-primary;
+            font-weight: $fw-500;
+            font-family: $font-poppins;
+        }
+
+        p {
+            font-family: $font-poppins;
+            font-size: $fs-14;
+        }
+
+        a {
+            text-align: center;
+            font-family: $font-poppins;
+        }
+    }
+
+    .card1 {
+        width: 350px;
+        background-color: $bg-white;
+        margin-left: -50px;
+        border-radius: $border-5;
+
+        img {
+            border-radius: $border-5;
+            height: 300px;
+        }
+
+        h5 {
+            font-size: $fs-20;
+            color: $color-primary;
+            font-weight: $fw-500;
+            font-family: $font-poppins;
+        }
+
+        p {
+            font-family: $font-poppins;
+            font-size: $fs-14;
+        }
+
+        a {
+            text-align: center;
+            font-family: $font-poppins;
+        }
+    }
+
+    .m-card1 {
+        background-color: $bg-white;
+        border-radius: $border-5;
+
+        h5 {
+            font-size: $fs-22;
+            color: $color-primary;
+            font-weight: $fw-500;
+            font-family: $font-poppins;
+        }
+
+        p {
+            font-family: $font-poppins;
+            font-size: $fs-14;
+        }
+    }
+
+    .m-card2 {
+        background-color: $bg-white;
+        border-radius: $border-5;
+
+        h5 {
+            font-size: $fs-22;
+            color: $color-primary;
+            font-weight: $fw-500;
+            font-family: $font-poppins;
+        }
+
+        p {
+            font-family: $font-poppins;
+            font-size: $fs-14;
+        }
+    }
+}
+
+.team-sec {
+    h3 {
+        font-size: $fs-32;
+        font-family: $font-poppins;
+        text-align: center;
+        color: $color-primary;
+    }
+
+    h5 {
+        font-size: $fs-20;
+        font-family: $font-poppins;
+        color: $color-primary;
+    }
+
+    p {
+        font-size: $fs-14;
+        font-family: $font-poppins;
+        color: $color-secondary;
+    }
+}
+
+.our-blogs-home {
+    background-image: url('../images/our-blogs-bg.png');
+    background-size: 100% 100%;
+
+    .back-color {
+        background-color: rgba(25, 103, 136, 0.8);
+
+        h4 {
+            font-size: $fs-32;
+            text-align: center;
+            color: $color-white;
+            font-family: $font-poppins;
+        }
+        h6{
+            font-size: $fs-20;
+            text-align: center;
+            color: $color-white;
+            font-family: $font-poppins;
+        }
+
+        .blog-card-bg {
+            background-color: $bg-white;
+            border-radius: $border-10 !important;
+            font-family: $font-poppins;
+
+            .content {
+                h5 {
+                    font-size: $fs-20;
+                }
+
+                p {
+                    font-size: $fs-14;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        .last-button{
+            text-align: center;
+            button{
+                border: $border-2 solid $border-white;
+                padding: 5px 40px 5px 40px;
+                background-color: $color-primary;
+                border-radius: $border-5;
+                font-family: $font-poppins;
+                color: $color-white;
+                font-size: $fs-18;
+                font-weight: $fw-500;
+            }
+        }
+
+
+        .event {
+            .button-head {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: -80px;
+
+
+                .event-button {
+                    border: 2px solid $border-primary;
+                    width: 70%;
+                    border-radius: $border-10;
+                    padding: 5px 20px 5px 20px;
+                    font-size: $fs-18;
+                    font-family: $font-poppins;
+                }
+
+                .button_active {
+                    background-color: $bg-primary;
+                    color: $color-white;
+                    border: $border-1 solid $color-white;
+                }
+            }
+
+            .content_inside {
+                display: none;
+            }
+
+            .content_inside_active {
+                display: block;
+            }
+
+            .event-card {
+                background-color: $bg-white;
+                padding: $p-10;
+                border-radius: $border-10;
+
+                h5 {
+                    font-size: $fs-30;
+                    font-weight: $fw-600;
+                    color: $bg-alizarinCrimson;
+                    text-align: center;
+                    font-family: $font-poppins;
+                }
+
+                p {
+                    font-size: $fs-16;
+                    font-family: $font-poppins;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .center-excellence-sec {
+        .card1 {
+            margin-left: 0px;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 390px) and (max-width: 400px) {
+    .center-excellence-sec {
+        .card {
+            width: 350px;
+            margin-left: 0px;
+        }
+
+        .card1 {
+            width: 350px;
+            margin-left: 0px;
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 390px) {
+    .center-excellence-sec {
+        .card {
+            width: 280px;
+            margin-left: 0px;
+        }
+
+        .card1 {
+            width: 280px;
+            margin-left: 0px;
+        }
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .our-blogs-home {
+
+
+        .back-color {
+            .event {
+                .button-head {
+                    margin-top: 0px;
+                    .event-button {
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+    }
+}
