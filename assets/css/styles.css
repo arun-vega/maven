@@ -1,4 +1,116 @@
 @font-face {
   font-family: "Poppins";
   src: url("../font/Poppins-Regular.ttf");
+}
+.about-us-banner-sec {
+  background-image: url("../images/about-us-banner-img.jpg");
+  background-size: cover;
+  color: #fff;
+}
+.about-us-banner-sec .banner-link-sec {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0) 20%, rgba(25, 103, 136, 0.527) 20%);
+  padding: 5% 0px;
+}
+.about-us-banner-sec .banner-link-sec h6 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.about-us-experiance-sec {
+  font-family: "Poppins", sans-serif;
+}
+.about-us-experiance-sec .experiance-section h5 {
+  color: #FF0000;
+}
+.about-us-experiance-sec .experiance-section h3 {
+  color: #124D68;
+}
+
+.about-us-laser-treatment {
+  background-image: url("../images/laser-treatment-bg-img.png");
+  background-size: cover;
+  padding: 5% 0px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.about-us-laser-treatment .for-laser-treatment h2 {
+  margin: 25px 0px;
+}
+
+.about-our-team-sec {
+  font-family: "Poppins", sans-serif;
+}
+.about-our-team-sec .related-our-team {
+  margin-top: -14%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+}
+.about-our-team-sec .related-our-team h3 {
+  color: #124D68;
+  text-align: center;
+  font-weight: 600;
+}
+
+.our-tab-section {
+  font-family: "Poppins", sans-serif;
+}
+.our-tab-section .tab-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #1F80AA;
+  margin: 20px 0px;
+}
+.our-tab-section .tab-container ul .nav-link {
+  color: #fff;
+}
+.our-tab-section .tab-container ul .active {
+  border-bottom: 3px solid #FF0000;
+}
+.our-tab-section .tab-container .our-content-section h3 {
+  color: #124D68;
+}
+
+.your-feedback-sec {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 30px;
+  border: 1px solid #196788;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #196788 40%, #fff 40%);
+}
+.your-feedback-sec .get-smile-sec {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #BDE5F6;
+}
+.your-feedback-sec .get-smile-sec .dot-circle-sec {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #259ACB;
+  margin: 5% 0px;
+}
+.your-feedback-sec .get-smile-sec h5 {
+  color: #196788;
+}
+.your-feedback-sec .about-feedback-sec {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.your-feedback-sec .about-feedback-sec h4 {
+  color: #124D68;
+}
+.your-feedback-sec .about-feedback-sec button {
+  background-color: #196788;
+}
+
+@media only screen and (max-width: 768px) {
+  .your-feedback-sec {
+    background: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
