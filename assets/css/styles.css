@@ -203,4 +203,80 @@
   .service-call-item {
     border-right: 1px solid #196788;
   }
+}
+.contact-banner {
+  background: url(/assets/images/contact-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.contact-banner a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact-banner .container-fluid {
+  background: rgba(25, 103, 136, 0.85);
+}
+
+.contact-left h4 {
+  text-align: center;
+}
+.contact-left img {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.address-block {
+  margin: 30px 0px;
+}
+.address-block p {
+  margin: 0;
+}
+.address-block .address-img {
+  width: 90px;
+  height: 90px;
+}
+
+.word {
+  word-break: break-all;
+}
+
+.appointment-section {
+  background: url(/assets/images/appointment-banner.png);
+}
+.appointment-section .appointment {
+  background: rgba(18, 77, 102, 0.85);
+  color: #fff;
+}
+.appointment-section .submit-btn {
+  background-color: #196788;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 30px;
+}
+.appointment-section .book-appointment h5 {
+  text-align: center;
+  font-weight: 600;
+}
+.appointment-section .book-appointment p {
+  text-align: center;
+}
+.appointment-section .medical-sector h5 {
+  font-weight: 600;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+.appointment-section .medical-block {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #196788;
+  margin: 10px;
+  padding: 20px;
+}
+.appointment-section .medical-block h6 {
+  font-size: 18px;
+  font-weight: 700;
 }/*# sourceMappingURL=styles.css.map */
