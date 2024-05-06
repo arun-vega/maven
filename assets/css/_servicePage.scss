@@ -1,0 +1,154 @@
+.service-banner-sec{
+    background-image: url('../images/service-page-banner-img.jpg');
+    background-size: cover;
+    color: $color-white;
+    .banner-link-sec{
+        background: linear-gradient(135deg, rgba(255,255,255,0) 20%, rgba(25, 103, 136, 0.527) 20%);
+        padding: 5% $p-0;
+        h6{
+            a{
+                text-decoration: none;
+                color: $color-white;
+            }
+        }
+    }
+}
+.our-services-container{
+    background-image: url('../images/our-service-bg-img.jpg');
+    background-size: cover;
+    padding: 4% 1%;
+    font-family: $font-poppins;
+    .our-service-head{
+        @include flex-column-center;
+        color: $color-white;
+        h3{
+            font-weight: $fw-600;
+        }
+    }
+    .know-more-treatment-sec{
+        height: 100%;
+        margin-top: $m-20;
+        .treatment-head{
+            background-color: $bg-white;
+            padding: $p-10;
+            h6{
+                color: $color-secondary;
+            }
+            h5{
+                font-weight: $fw-600;
+            }
+            a{
+                color: $color-secondary;
+                span{
+                    margin: $m-0 $m-8;
+                }
+            }
+        }
+    }
+}
+.featured-specialists-container{
+    font-family: $font-poppins;
+    h3{
+        text-align: center;
+        margin-bottom: $m-25;
+        color: $color-peacockblue;
+    }
+    .about-specialists-doctor{
+        border: $border-1 solid $color-lightblue;
+        border-radius: $border-10;
+        padding: $p-5;
+        margin: $m-10 $m-0;
+        .dr-img-sec{
+            @include flex-column-center;
+        }
+        h5{
+            color: $color-primary;
+            font-weight: $fw-600;
+        }
+        .doctor-specalities{
+            margin: $m-5 $m-0;
+        }
+        .doctor-experiance{
+            color: $color-pacificblue;
+            margin: $m-5 $m-0;
+        }
+        .hospital-admin{
+            color: $color-peacockblue;
+        }
+    }
+    .specialists-read-more-btn{
+        text-align: center;
+        margin-top: $m-20;
+        button{
+            background-color: $bg-Peacockblue;
+            border: none;
+        }
+    }
+}
+.latest-update-container{
+    background-image: url('../images/our-service-bg-img.jpg');
+    background-size: cover;
+    padding: 4% 1%;
+    font-family: $font-poppins;
+    h3{
+        color: $color-white;
+        text-align: center;
+        margin-bottom: $m-50;
+    }
+    .updated-sec{
+        padding: $p-10;
+        p{
+            color: $color-secondary;
+        }
+        h6{
+            background-color: $bg-Peacockblue;
+            width: max-content;
+            padding: $p-4 $p-10;
+            border-radius: $border-5;
+            color: $color-white;
+        }
+        .tips-head{
+            color: $color-peacockblue;
+        }
+    }
+}
+.patient-testimonial-container{
+    font-family: $font-poppins;
+    .testimonial-head{
+        @include flex-column-center;
+        h3{
+            color: $color-peacockblue;
+        }
+    }
+    .patient-review{
+        background-color: $bg-Lightblue;
+        padding: $p-10;
+        border-radius: $border-5;
+        h6{
+            font-size: $fs-14;
+            margin: $m-5 $m-2;
+        }
+        .testimonial-rating-sec{
+            margin: $m-4 $m-0;
+            i{
+                color: $color-gold;
+            }
+        }
+        p{
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+            white-space: normal;
+            overflow: hidden;
+        }
+    }
+    .view-more-btn{
+        text-align: center;
+        margin: $m-20 $m-0;
+        button{
+            background-color: $bg-Peacockblue;
+            border: none;
+        }
+    }
+}
