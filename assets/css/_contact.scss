@@ -1,0 +1,83 @@
+// Contact banner styles start here
+.contact-banner{
+    background: url(/assets/images/contact-banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:$color-white;
+    a{
+        text-decoration: none;
+        color:$color-white;
+    }
+.container-fluid{
+     background: rgba(25, 103, 136, 0.85);
+}
+}
+// Contact banner styles end here
+// Contact Details styles start here
+.contact-left{
+    h4{
+        text-align: center;
+    }
+    img{
+        width:80%;
+        margin:$m-0 auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+.address-block{
+    margin:$m-30 $m-0;
+    p{
+        margin:0;
+    }
+    .address-img{
+        width:90px;
+        height:90px;
+    }
+}
+.word{
+    word-break: break-all;
+}
+// Contact Details styles end here
+// Appointment styles start here
+.appointment-section{
+    background:url(/assets/images/appointment-banner.png);
+    .appointment{
+        background: rgba(18, 77, 102, 0.85);
+        color:$color-white;
+    }
+    .submit-btn{
+        background-color: $bg-primary;
+        color:$color-white;
+        border:$border-1 solid $border-white;
+        padding:$p-5 $p-30;
+    }
+    .book-appointment{
+        h5{
+            text-align: center;
+            font-weight: $fw-600;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .medical-sector h5{
+        font-weight: $fw-600;
+        width:80%;
+        margin:$m-20 auto;
+        text-align: center;
+    }
+    .medical-block{
+        background-color: $bg-white;
+        border-radius: 5px;
+        color:$color-primary;
+        margin:$m-10;
+        padding:$p-20;
+        h6{
+            font-size: $fs-18;
+            font-weight: $fw-700;
+        }
+    }
+}
+// Appointment styles end here
+
