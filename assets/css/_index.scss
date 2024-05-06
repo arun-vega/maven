@@ -1,0 +1,213 @@
+// Top-nav styles start here
+.top-nav{
+    background-color: $bg-Cerulean;
+    color:$color-white;
+    .top-nav-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i{
+            padding-right:$p-15;
+        }
+    }
+   
+    .appointment-btn{
+        border:none;
+        outline:none;
+        border-radius: 5px;
+        color:$color-cerulean;
+        padding:$p-10 $p-15;
+        background-color: $bg-white;
+    }
+}
+// Top-nav styles end here
+// Header styles start here
+.navbar-brand img{
+    max-width: 205px;
+    max-height: 60px;
+}
+.nav-link{
+    font-weight: $fw-600;
+}
+.dropdown {
+    .dropdown-menu {
+      display: none;
+      border-radius: 0px;
+    
+    }
+  
+    &:hover {
+      >.dropdown-menu {
+        display: block;
+      }
+    }
+  }
+// Header styles end here
+// Give us call styles start here
+.give-call-card{
+    border-radius: 15px;
+    background-color: $bg-primary;
+    color:$color-white;
+    padding:$p-35;
+    i{
+        margin: $m-0 $m-10;
+    }
+    .call-btn{
+        background-color: transparent;
+        color:$color-white;
+        outline:none;
+        border:$border-1 solid $border-white;
+        padding:$p-15 $p-40;
+    }
+    .phone p{
+        font-weight: $fw-700;
+        font-size: $fs-20;
+    }
+}
+.service-call{
+border:$border-1 solid $border-Peacockblue;
+border-radius: 10px;
+padding:$p-30;
+background-color:$bg-Lightblue;
+.service-call-item{
+    padding:$p-20;
+    text-align: center;
+    h6{
+        font-size: $fs-20;
+        margin:$m-10 $m-0;
+    }
+   
+}
+.service-call-item-last{
+    border-right:none;
+}
+}
+// Give us call styles end here
+// Experience styles start here
+.experience-content h3 {
+    color:$color-peacockblue;
+}
+.experience-points{
+    p{
+        margin:$m-0 $m-10;
+        color:$color-primary;
+    }
+}
+.experience-years{
+    color:$color-danger;
+    font-weight: $fw-600;
+    margin:$m-5;
+}
+.book-btn{
+    background-color: $bg-primary;
+    color:$color-white;
+    border-radius: 5px;
+    padding:$p-5 $p-25;
+    border:none;
+    outline:none;
+}
+.read-more-btn{
+border:$border-1 solid $border-primary;
+color:$color-primary;
+background-color: $bg-white;
+    border-radius: 5px;
+    padding:$p-5 $p-25;
+    outline:none;
+}
+.points-block{
+    margin:$m-5 $m-0;
+}
+// Experience styles end here
+// Our services styles start here
+.services-section{
+    background: url('/assets/images/interior-hospital\ 1.png');
+    .services-bg{
+        background-color: #124D66CC; 
+    }
+    h3{
+        color:$color-white;
+        text-align: center;
+    }
+    .service-list button{
+        outline:none;
+        color:$color-white;
+        background-color: $bg-primary;
+        border:$border-2 solid $border-white;
+        margin:$m-10 $m-0;
+        padding:$p-10;
+        font-size: $fs-18;
+    }
+    .service-card{
+        background-color: $bg-white;
+        border-radius: 10px;
+        border:$border-5 solid $border-white;
+        h4{
+            color:$color-pacificblue;
+        }
+        a{
+            color:$color-pacificblue;
+        }
+    }
+}
+// Our services styles end here
+// Patient stories styles start here
+.patient-stories{
+     h4{
+    color:$color-danger;
+    text-align: center;
+   margin-bottom:$m-20;
+}
+img{
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+   img{
+    height: 70px;
+    width: 70px;
+    margin-left:-10px;
+   }
+}
+.patient-card{
+    position: relative;
+    .play-icon{
+        position: absolute;
+        top:0;
+        right:0;
+        left:0;
+         bottom: 0;
+    }
+    .patient-content{
+        position: absolute;
+        text-align: center;
+        color:$color-white;
+        top:30%;
+        right:0;
+        left:0;
+         bottom: 0;
+         border-radius: 10px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    p{
+        margin-bottom:auto;
+    }
+    span{
+        font-size: $fs-12;
+    }
+    }
+}
+}
+// Patient stories styles end here
+// Media queries
+@media only screen and (max-width:768px){
+    .service-call-item{
+        border-right:none;
+    }
+    .dropdown-item{
+        text-wrap: wrap;
+    }
+}
+@media only screen and (min-width:769px){
+    .service-call-item{
+        border-right:$border-1 solid $border-primary;
+    }
+}

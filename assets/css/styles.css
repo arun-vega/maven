@@ -1,4 +1,206 @@
 @font-face {
   font-family: "Poppins";
   src: url("../font/Poppins-Regular.ttf");
+}
+.top-nav {
+  background-color: #1F80AA;
+  color: #fff;
+}
+.top-nav .top-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-nav .top-nav-item i {
+  padding-right: 15px;
+}
+.top-nav .appointment-btn {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #1F80AA;
+  padding: 10px 15px;
+  background-color: #fff;
+}
+
+.navbar-brand img {
+  max-width: 205px;
+  max-height: 60px;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+  border-radius: 0px;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.give-call-card {
+  border-radius: 15px;
+  background-color: #196788;
+  color: #fff;
+  padding: 35px;
+}
+.give-call-card i {
+  margin: 0px 10px;
+}
+.give-call-card .call-btn {
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 15px 40px;
+}
+.give-call-card .phone p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.service-call {
+  border: 1px solid #124D68;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #BDE5F6;
+}
+.service-call .service-call-item {
+  padding: 20px;
+  text-align: center;
+}
+.service-call .service-call-item h6 {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.service-call .service-call-item-last {
+  border-right: none;
+}
+
+.experience-content h3 {
+  color: #124D68;
+}
+
+.experience-points p {
+  margin: 0px 10px;
+  color: #196788;
+}
+
+.experience-years {
+  color: #FF0000;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.book-btn {
+  background-color: #196788;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 25px;
+  border: none;
+  outline: none;
+}
+
+.read-more-btn {
+  border: 1px solid #196788;
+  color: #196788;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 25px;
+  outline: none;
+}
+
+.points-block {
+  margin: 5px 0px;
+}
+
+.services-section {
+  background: url("/assets/images/interior-hospital 1.png");
+}
+.services-section .services-bg {
+  background-color: rgba(18, 77, 102, 0.8);
+}
+.services-section h3 {
+  color: #fff;
+  text-align: center;
+}
+.services-section .service-list button {
+  outline: none;
+  color: #fff;
+  background-color: #196788;
+  border: 2px solid #fff;
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 18px;
+}
+.services-section .service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 5px solid #fff;
+}
+.services-section .service-card h4 {
+  color: #259ACB;
+}
+.services-section .service-card a {
+  color: #259ACB;
+}
+
+.patient-stories h4 {
+  color: #FF0000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.patient-stories img {
+  border-radius: 10px;
+}
+.patient-stories p {
+  text-align: center;
+}
+.patient-stories p img {
+  height: 70px;
+  width: 70px;
+  margin-left: -10px;
+}
+.patient-stories .patient-card {
+  position: relative;
+}
+.patient-stories .patient-card .play-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.patient-stories .patient-card .patient-content {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  top: 30%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.patient-stories .patient-card .patient-content p {
+  margin-bottom: auto;
+}
+.patient-stories .patient-card .patient-content span {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .service-call-item {
+    border-right: none;
+  }
+  .dropdown-item {
+    text-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .service-call-item {
+    border-right: 1px solid #196788;
+  }
 }/*# sourceMappingURL=styles.css.map */
