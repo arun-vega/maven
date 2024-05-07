@@ -1,0 +1,33 @@
+// Director banner styles start here
+.director-msg-banner{
+    background: url(/assets/images/contact-banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:$color-white;
+    position: relative;
+    a{
+        text-decoration: none;
+        color:$color-white;
+    }
+.container-fluid{
+    clip-path: polygon(45% 0, 100% 0, 100% 100%, 36% 100%);
+     background: rgba(25, 103, 136, 0.85);
+}
+}
+// Director message banner styles end here
+.director-msg {
+    img{
+    height: -webkit-fill-available;
+margin-bottom: $m-15;
+}
+span{
+    color:$color-primary;
+    font-weight: $fw-700;
+}
+}
+// Media queries
+@media only screen and (max-width:769px){
+  .director-msg-banner .container-fluid{
+    clip-path: none;
+  }
+}
