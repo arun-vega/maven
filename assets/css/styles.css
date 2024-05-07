@@ -2,10 +2,195 @@
   font-family: "Poppins";
   src: url("../font/Poppins-Regular.ttf");
 }
-@font-face {
-  font-family: "Poppins";
-  src: url("../font/Poppins-Regular.ttf");
+.top-nav {
+  background-color: #1F80AA;
+  color: #fff;
 }
+.top-nav .top-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-nav .top-nav-item i {
+  padding-right: 15px;
+}
+.top-nav .appointment-btn {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #1F80AA;
+  padding: 10px 15px;
+  background-color: #fff;
+}
+
+.navbar-brand img {
+  max-width: 205px;
+  max-height: 60px;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+  border-radius: 0px;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.give-call-card {
+  border-radius: 15px;
+  background-color: #196788;
+  color: #fff;
+  padding: 35px;
+}
+.give-call-card i {
+  margin: 0px 10px;
+}
+.give-call-card .call-btn {
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 15px 40px;
+}
+.give-call-card .phone p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.service-call {
+  border: 1px solid #124D68;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #BDE5F6;
+}
+.service-call .service-call-item {
+  padding: 20px;
+  text-align: center;
+}
+.service-call .service-call-item h6 {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.service-call .service-call-item-last {
+  border-right: none;
+}
+
+.experience-content h3 {
+  color: #124D68;
+}
+
+.experience-points p {
+  margin: 0px 10px;
+  color: #196788;
+}
+
+.experience-years {
+  color: #FF0000;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.book-btn {
+  background-color: #196788;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 25px;
+  border: none;
+  outline: none;
+}
+
+.read-more-btn {
+  border: 1px solid #196788;
+  color: #196788;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 25px;
+  outline: none;
+}
+
+.points-block {
+  margin: 5px 0px;
+}
+
+.services-section {
+  background: url("/assets/images/interior-hospital 1.png");
+}
+.services-section .services-bg {
+  background-color: rgba(18, 77, 102, 0.8);
+}
+.services-section h3 {
+  color: #fff;
+  text-align: center;
+}
+.services-section .service-list button {
+  outline: none;
+  color: #fff;
+  background-color: #196788;
+  border: 2px solid #fff;
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 18px;
+}
+.services-section .service-card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 5px solid #fff;
+}
+.services-section .service-card h4 {
+  color: #259ACB;
+}
+.services-section .service-card a {
+  color: #259ACB;
+}
+
+.patient-stories h4 {
+  color: #FF0000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.patient-stories img {
+  border-radius: 10px;
+}
+.patient-stories p {
+  text-align: center;
+}
+.patient-stories p img {
+  height: 70px;
+  width: 70px;
+  margin-left: -10px;
+}
+.patient-stories .patient-card {
+  position: relative;
+}
+.patient-stories .patient-card .play-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.patient-stories .patient-card .patient-content {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  top: 30%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.patient-stories .patient-card .patient-content p {
+  margin-bottom: auto;
+}
+.patient-stories .patient-card .patient-content span {
+  font-size: 12px;
+}
+
 .why-choose-sec h3 {
   font-size: 32px;
   font-weight: 500;
@@ -317,6 +502,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .service-call-item {
+    border-right: none;
+  }
+  .dropdown-item {
+    text-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .service-call-item {
+    border-right: 1px solid #196788;
+  }
+}
+@media only screen and (max-width: 768px) {
   .center-excellence-sec .card1 {
     margin-left: -15px;
   }
@@ -362,8 +560,241 @@
     width: 100%;
   }
 }
-@media only screen and (min-width: 990px) {
-  .our-blogs-home .back-color .event .button-head {
-    margin-top: 0px;
-  }
+.contact-banner {
+  background: url(/assets/images/contact-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.contact-banner a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact-banner .container-fluid {
+  background: rgba(25, 103, 136, 0.85);
+}
+
+.contact-left h4 {
+  text-align: center;
+}
+.contact-left img {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.address-block {
+  margin: 30px 0px;
+}
+.address-block p {
+  margin: 0;
+}
+.address-block .address-img {
+  width: 90px;
+  height: 90px;
+}
+
+.word {
+  word-break: break-all;
+}
+
+.appointment-section {
+  background: url(/assets/images/appointment-banner.png);
+}
+.appointment-section .appointment {
+  background: rgba(18, 77, 102, 0.85);
+  color: #fff;
+}
+.appointment-section .submit-btn {
+  background-color: #196788;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 5px 30px;
+}
+.appointment-section .book-appointment h5 {
+  text-align: center;
+  font-weight: 600;
+}
+.appointment-section .book-appointment p {
+  text-align: center;
+}
+.appointment-section .medical-sector h5 {
+  font-weight: 600;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+.appointment-section .medical-block {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #196788;
+  margin: 10px;
+  padding: 20px;
+}
+.appointment-section .medical-block h6 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.blogs-banner {
+  background: url(/assets/images/contact-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.blogs-banner a {
+  text-decoration: none;
+  color: #fff;
+}
+.blogs-banner .container-fluid {
+  background: rgba(25, 103, 136, 0.85);
+}
+
+.categories-block-inside {
+  display: none;
+}
+
+.categories-block-inside_active {
+  display: block;
+}
+
+.categories-section {
+  z-index: 1;
+  position: sticky;
+  top: 100px;
+}
+
+.categories {
+  border: 1px solid #196788;
+  border-radius: 10px;
+  padding: 15px;
+}
+.categories h6 {
+  text-align: center;
+  font-weight: 500;
+  color: #196788;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.categories button {
+  background-color: #196788;
+  color: #fff;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 5px;
+  margin: 5px 0px;
+}
+.categories .categories_button_active {
+  border: 1px solid #196788;
+  color: #196788;
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.top-posts {
+  border: 1px solid #196788;
+  border-radius: 10px;
+  padding: 15px;
+}
+.top-posts h6 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: #196788;
+}
+.top-posts p {
+  margin: 0;
+}
+.top-posts li {
+  margin-bottom: 15px;
+}
+.top-posts span {
+  color: #196788;
+}
+.top-posts li p:first-child {
+  color: #196788;
+  font-weight: 700;
+}
+
+.blogs-card {
+  border: 1px solid rgb(169, 169, 169);
+  padding: 3px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.blogs-card h4 {
+  color: #196788;
+}
+
+.blogs-card-content .calender-like {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blogs-card-content .calender-like p {
+  margin: 0;
+}
+.blogs-card-content .learn-btn {
+  background-color: #196788;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.biomedical-data h2 {
+  color: #196788;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+.biomedical-data h6 {
+  color: #196788;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.biomedical-data select {
+  border: 2px solid #196788;
+}
+.biomedical-data button {
+  border: 2px solid #196788;
+  color: #196788;
+}
+.biomedical-data button:hover {
+  background-color: #196788;
+  color: #fff;
+}
+.biomedical-data table,
+.biomedical-data td,
+.biomedical-data th {
+  white-space: nowrap;
+}
+.biomedical-data table,
+.biomedical-data th {
+  background-color: #196788;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
+.biomedical-data .table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.biomedical-data .table td {
+  border: none;
+}
+.biomedical-data .table tr:last-child td {
+  border-bottom: 1px solid #196788;
+}
+.biomedical-data .table tr td:first-child {
+  border-left: 1px solid #196788;
+}
+.biomedical-data .table tr td:last-child {
+  border-right: 1px solid #196788;
 }/*# sourceMappingURL=styles.css.map */
