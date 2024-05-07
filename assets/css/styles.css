@@ -2,6 +2,10 @@
   font-family: "Poppins";
   src: url("../font/Poppins-Regular.ttf");
 }
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .top-nav {
   background-color: #1F80AA;
   color: #fff;
