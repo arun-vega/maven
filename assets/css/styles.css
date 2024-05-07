@@ -564,6 +564,176 @@
     width: 100%;
   }
 }
+.service-details-banner-sec {
+  background-image: url("../images/service-page-banner-img.jpg");
+  background-size: cover;
+  color: #fff;
+}
+.service-details-banner-sec .banner-link-sec {
+  background-color: rgba(25, 103, 136, 0.527);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service-details-banner-sec .banner-link-sec h6 a {
+  text-decoration: none;
+  color: #fff;
+}
+.service-details-banner-sec .banner-link-sec h1 {
+  text-align: center;
+}
+
+.about-service-details-container {
+  font-family: "Poppins", sans-serif;
+}
+.about-service-details-container .details-about-surgery h5 {
+  color: #259ACB;
+}
+.about-service-details-container .details-about-surgery h3 {
+  color: #196788;
+}
+
+.our-services-details-container {
+  background-image: url("../images/our-service-bg-img.jpg");
+  background-size: cover;
+  padding: 4% 1%;
+  font-family: "Poppins", sans-serif;
+}
+.our-services-details-container .about-specialties-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-services-details-container .about-specialties-head .key-specialties {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.our-services-details-container .about-specialties-head .key-specialties h3 {
+  color: #124D68;
+  font-weight: 600;
+}
+.our-services-details-container .related-treatment-sec {
+  margin-top: 20px;
+}
+.our-services-details-container .related-treatment-sec .treatment-head {
+  background-color: #fff;
+  padding: 10px;
+}
+.our-services-details-container .related-treatment-sec .treatment-head h6 {
+  color: #124D68;
+}
+.our-services-details-container .related-treatment-sec .treatment-head h5 {
+  color: #29ABE2;
+}
+
+.featured-specialists-container {
+  font-family: "Poppins", sans-serif;
+}
+.featured-specialists-container h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #124D68;
+}
+.featured-specialists-container .about-specialists-doctor {
+  border: 1px solid #BDE5F6;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 0px;
+}
+.featured-specialists-container .about-specialists-doctor .dr-img-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.featured-specialists-container .about-specialists-doctor h5 {
+  color: #196788;
+  font-weight: 600;
+}
+.featured-specialists-container .about-specialists-doctor .doctor-specalities {
+  margin: 5px 0px;
+}
+.featured-specialists-container .about-specialists-doctor .doctor-experiance {
+  color: #259ACB;
+  margin: 5px 0px;
+}
+.featured-specialists-container .about-specialists-doctor .hospital-admin {
+  color: #124D68;
+}
+.featured-specialists-container .specialists-read-more-btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.featured-specialists-container .specialists-read-more-btn button {
+  background-color: #124D68;
+  border: none;
+}
+
+.expert-article-container {
+  font-family: "Poppins", sans-serif;
+}
+.expert-article-container .article-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.expert-article-container .article-head h3 {
+  color: #196788;
+}
+.expert-article-container .about-article-section {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #BDE5F6;
+  border-radius: 5px;
+  padding: 10px;
+}
+.expert-article-container .about-article-section div {
+  margin-left: 8px;
+}
+.expert-article-container .about-article-section div h5 {
+  color: #124D68;
+}
+.expert-article-container .about-article-section div p {
+  color: #29ABE2;
+  margin: 0px;
+}
+
+.service-details-testimonial-sec {
+  font-family: "Poppins", sans-serif;
+}
+.service-details-testimonial-sec .testimonial-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-details-testimonial-sec .testimonial-head h3 {
+  color: #124D68;
+  word-wrap: break-word;
+}
+.service-details-testimonial-sec .patient-review {
+  height: 180px;
+  background-color: #EAF7FC;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+  overflow-y: scroll;
+  border: 10px solid #EAF7FC;
+}
+.service-details-testimonial-sec .patient-review::-webkit-scrollbar {
+  display: none;
+}
+.service-details-testimonial-sec .patient-review h6 {
+  font-size: 14px;
+  margin: 5px 2px;
+}
+.service-details-testimonial-sec .patient-review .testimonial-rating-sec {
+  margin: 4px 0px;
+}
+.service-details-testimonial-sec .patient-review .testimonial-rating-sec i {
+  color: #ebeb5b;
+}
+
 .service-banner-sec {
   background-image: url("../images/service-page-banner-img.jpg");
   background-size: cover;
