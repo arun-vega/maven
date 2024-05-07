@@ -212,7 +212,6 @@
 }
 .our-blogs-home .back-color .event .button-head .event-button {
   border: 2px solid #196788;
-  width: 70%;
   border-radius: 10px;
   padding: 5px 20px 5px 20px;
   font-size: 18px;
@@ -249,9 +248,90 @@
   text-decoration: none;
 }
 
+.footer-sec {
+  background-color: #196788;
+}
+.footer-sec h4 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.footer-sec p {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+.footer-sec ul {
+  margin: 0px 0px 40px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.footer-sec ul li {
+  list-style: none;
+  margin: 0px 0px 8px 0px;
+}
+.footer-sec ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.footer-sec .google-play-but {
+  border: 1px solid #fff;
+  background-color: #196788;
+  padding: 10px 20px 10px 20px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(250, 250, 250, 0.3) 0px 10px 50px;
+  margin-bottom: 25px;
+}
+.footer-sec .emergency-but {
+  border: 1px solid #fff;
+  background-color: #FF2800;
+  padding: 10px 20px 10px 20px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(250, 250, 250, 0.3) 0px 10px 50px;
+  margin-bottom: 25px;
+}
+.footer-sec .icons {
+  text-align: center;
+}
+.footer-sec .icons i {
+  color: #fff;
+  font-size: 20px;
+  padding: 0px 0px 0px 8px;
+}
+.footer-sec .bord {
+  border: 1px solid #fff;
+}
+.footer-sec .privacy-text {
+  text-align: center;
+}
+.footer-sec .privacy-text span {
+  border-left: 2px solid white;
+  padding: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   .center-excellence-sec .card1 {
+    margin-left: -15px;
+  }
+  .center-excellence-sec .card {
     margin-left: 0px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 990px) and (max-width: 1400px) {
+  .center-excellence-sec .card {
+    width: 100%;
+  }
+  .center-excellence-sec .card1 {
+    margin-left: 0px;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 390px) and (max-width: 400px) {
@@ -280,5 +360,10 @@
   }
   .our-blogs-home .back-color .event .button-head .event-button {
     width: 100%;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .our-blogs-home .back-color .event .button-head {
+    margin-top: 0px;
   }
 }/*# sourceMappingURL=styles.css.map */

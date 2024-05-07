@@ -56,8 +56,8 @@ $(document).ready(function () {
     $(".blogs-corousal").slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
+        autoplay: false,
+        autoplaySpeed: 2000,
         arrows: false,
         dots: false,
         pauseOnHover: true,
@@ -101,7 +101,7 @@ $(document).ready(function () {
                 },
             },
         ],
-     
+
     });
 });
 
