@@ -279,4 +279,42 @@
 .appointment-section .medical-block h6 {
   font-size: 18px;
   font-weight: 700;
+}
+
+.biomedical-data h2 {
+  color: #196788;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+.biomedical-data h6 {
+  color: #196788;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.biomedical-data select {
+  border: 2px solid #196788;
+}
+.biomedical-data button {
+  border: 2px solid #196788;
+  color: #196788;
+}
+.biomedical-data button:hover {
+  background-color: #196788;
+  color: #fff;
+}
+.biomedical-data table,
+.biomedical-data td,
+.biomedical-data th {
+  white-space: nowrap;
+}
+.biomedical-data table,
+.biomedical-data th {
+  background-color: #196788;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */

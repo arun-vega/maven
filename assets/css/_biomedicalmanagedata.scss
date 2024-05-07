@@ -1,0 +1,40 @@
+.biomedical-data {
+  h2 {
+    color: $color-primary;
+    font-weight: $fw-600;
+    font-size: $fs-26;
+    font-family: $font-poppins;
+    margin-bottom: $m-15;
+  }
+  h6 {
+    color: $color-primary;
+    font-weight: $fw-500;
+    font-size: $fs-18;
+    font-family: $font-poppins;
+  }
+  select {
+    border: 2px solid $border-primary;
+  }
+  button {
+    border: 2px solid $border-primary;
+    color: $color-primary;
+    &:hover {
+      background-color: $bg-primary;
+      color: $color-white;
+    }
+  }
+
+  table,
+  td,
+  th {
+    white-space: nowrap;
+  }
+  table,
+  th {
+    background-color: $bg-primary;
+    color: $color-white;
+    font-size: $fs-15;
+    font-weight: $fw-500;
+    text-align: center;
+  }
+}
