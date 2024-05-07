@@ -1,0 +1,167 @@
+.service-details-banner-sec{
+    background-image: url('../images/service-page-banner-img.jpg');
+    background-size: cover;
+    color: $color-white;
+    .banner-link-sec{
+        background-color:  rgba(25, 103, 136, 0.527);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h6{
+            a{
+                text-decoration: none;
+                color: $color-white;
+            }
+        }
+        h1{
+            text-align: center;
+        }
+    }
+}
+
+.about-service-details-container{
+    font-family: $font-poppins;
+    .details-about-surgery{
+        h5{
+            color: $color-pacificblue;
+        }
+        h3{
+            color: $color-primary;
+        }
+    }
+}
+
+.our-services-details-container{
+    background-image: url('../images/our-service-bg-img.jpg');
+    background-size: cover;
+    padding: 4% 1%;
+    font-family: $font-poppins;
+    .about-specialties-head{
+        @include flex-column-center;
+        .key-specialties{
+            background-color: $bg-white;
+            padding: $p-20;
+            border-radius: $border-10;
+            h3{
+                color: $color-peacockblue;
+                font-weight: $fw-600;
+            }
+        }
+        
+    }
+    .related-treatment-sec{
+        margin-top: $m-20;
+        .treatment-head{
+            background-color: $bg-white;
+            padding: $p-10;
+            h6{
+                color: $color-peacockblue;
+            }
+            h5{
+                color: $color-secondary;
+            }
+        }
+    }
+}
+
+.featured-specialists-container{
+    font-family: $font-poppins;
+    h3{
+        text-align: center;
+        margin-bottom: $m-25;
+        color: $color-peacockblue;
+    }
+    .about-specialists-doctor{
+        border: $border-1 solid $color-lightblue;
+        border-radius: $border-10;
+        padding: $p-5;
+        margin: $m-10 $m-0;
+        .dr-img-sec{
+            @include flex-column-center;
+        }
+        h5{
+            color: $color-primary;
+            font-weight: $fw-600;
+        }
+        .doctor-specalities{
+            margin: $m-5 $m-0;
+        }
+        .doctor-experiance{
+            color: $color-pacificblue;
+            margin: $m-5 $m-0;
+        }
+        .hospital-admin{
+            color: $color-peacockblue;
+        }
+    }
+    .specialists-read-more-btn{
+        text-align: center;
+        margin-top: $m-20;
+        button{
+            background-color: $bg-Peacockblue;
+            border: none;
+        }
+    }
+}
+
+.expert-article-container{
+    font-family: $font-poppins;
+    .article-head{
+        @include flex-column-center;
+        h3{
+            color: $color-primary;
+        }
+    }
+    .about-article-section{
+        display: flex;
+        flex-direction: row;
+        border: $border-1 solid $border-Lightblue;
+        border-radius: $border-5;
+        padding: $p-10;
+        div{
+            margin-left: $m-8;
+            h5{
+                color: $color-peacockblue;
+            }
+            p{
+                color: $color-secondary;
+                margin: $m-0;
+            }
+        }
+        
+    }
+}
+
+.service-details-testimonial-sec{
+    font-family: $font-poppins;
+    .testimonial-head{
+        @include flex-column-center;
+        h3{
+            color: $color-peacockblue;
+            word-wrap: break-word;
+        }
+    }
+    .patient-review{
+        height: 180px;
+        background-color: $color-shadelightblue;
+        padding: $p-10;
+        border-radius: $border-5;
+        margin: $m-10;
+        overflow-y: scroll;
+        border: $border-10 solid $color-shadelightblue;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        h6{
+            font-size: $fs-14;
+            margin: $m-5 $m-2;
+        }
+        .testimonial-rating-sec{
+            margin: $m-4 $m-0;
+            i{
+                color: $color-gold;
+            }
+        }
+    }
+}
