@@ -37,4 +37,24 @@
     font-weight: $fw-500;
     text-align: center;
   }
+  .table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  .table td {
+    border: none;
+  }
+
+  .table tr:last-child td {
+    border-bottom: 1px solid $border-primary;
+  }
+
+  .table tr td:first-child {
+    border-left: 1px solid $border-primary;
+  }
+
+  .table tr td:last-child {
+    border-right: 1px solid $border-primary;
+  }
 }
