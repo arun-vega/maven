@@ -1,403 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- BOOTSTRAP CSS 5.3.3 CDN LINK -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- FONT AWESOME ICON 6.5.2 CDN LINK -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <!-- SLICK THEME CSS CDN 1.9.0 LINK -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
-    />
-    <!-- SLICK CSS CDN 1.9.0 LINK -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
-    />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <body>
-    <!-- TOP NAV SECTION START HERE -->
-    <section class="top-nav py-2" id="top-nav">
-      <div class="container">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- BOOTSTRAP CSS 5.3.3 CDN LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- FONT AWESOME ICON 6.5.2 CDN LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <!-- SLICK THEME CSS CDN 1.9.0 LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+  <!-- SLICK CSS CDN 1.9.0 LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <!-- TOP NAV SECTION START HERE -->
+  <section class="top-nav py-2" id="top-nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 top-nav-item d-none d-md-flex">
+          <i class="fa-regular fa-clock"></i>Hours : Mon-Fri : 8am to 7pm
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 top-nav-item">
+          <i class="fa-solid fa-location-dot"></i>Maven Medical Center,
+          Banjara Hills
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12 top-nav-item d-none d-md-flex">
+          <i class="fa-solid fa-tent"></i> Camps
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12 top-nav-item d-none d-md-flex">
+          <span><i class="fa-brands fa-facebook-f"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-x-twitter"></i></span>
+          <span><i class="fa-brands fa-youtube"></i></span>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12 top-nav-item d-none d-md-flex">
+          <button class="appointment-btn">Get Appointment</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TOP NAV SECTION END HERE -->
+  <!-- HEADER SECTION START HERE -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container py-2">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <img class="w-100" src="assets/images/maven-logo.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="navbarNavLabel">
+              <img src="assets/images/logo1.svg" alt="" />
+            </h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  About Us
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="aboutus.html">About MMC</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="chairmanMessage.html">Chairman Message</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="directorMessage.html">Director Message</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicepage.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Doctors</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Workshops
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="">Academics</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">Varicose Veins Workshop</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">India's First Microwave Ablation Workshop</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">Varicose Veins SonoSummit</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="">IRIA National conference</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Before & After</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- HEADER SECTION END HERE -->
+  <main>
+    <!-- CONTACT BANNER START HERE -->
+    <section class="contact-banner" id="contact-banner">
+      <div class="container-fluid">
         <div class="row">
-          <div
-            class="col-lg-3 col-md-3 col-sm-12 top-nav-item d-none d-md-flex"
-          >
-            <i class="fa-regular fa-clock"></i>Hours : Mon-Fri : 8am to 7pm
+          <div class="col-lg-4">
+            <img class="w-100" src="assets/images/contact-img.png" alt="" />
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 top-nav-item">
-            <i class="fa-solid fa-location-dot"></i>Maven Medical Center,
-            Banjara Hills
-          </div>
-          <div
-            class="col-lg-2 col-md-2 col-sm-12 top-nav-item d-none d-md-flex"
-          >
-            <i class="fa-solid fa-tent"></i> Camps
-          </div>
-          <div
-            class="col-lg-2 col-md-2 col-sm-12 top-nav-item d-none d-md-flex"
-          >
-            <span><i class="fa-brands fa-facebook-f"></i></span>
-            <span><i class="fa-brands fa-instagram"></i></span>
-            <span><i class="fa-brands fa-x-twitter"></i></span>
-            <span><i class="fa-brands fa-youtube"></i></span>
-          </div>
-          <div
-            class="col-lg-2 col-md-2 col-sm-12 top-nav-item d-none d-md-flex"
-          >
-            <button class="appointment-btn">Get Appointment</button>
+          <div class="col-lg-8 d-flex align-items-center justify-content-center">
+            <div class="p-3">
+              <p><a href="">Home</a> / <a href="">Contact Us</a></p>
+              <h1>Contact Us</h1>
+              <p>Discover our range of multispecialty healthcare services.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- TOP NAV SECTION END HERE -->
-    <!-- HEADER SECTION START HERE -->
-    <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container py-2">
-          <a class="navbar-brand fw-bold" href="index.html">
-            <img class="w-100" src="assets/images/maven-logo.png" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-start"
-            tabindex="-1"
-            id="navbarNav"
-            aria-labelledby="navbarNavLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="navbarNavLabel">
-                <img src="assets/images/logo1.svg" alt="" />
-              </h5>
-              <button
-                type="button"
-                class="btn-close text-reset"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    About Us
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="">About MMC</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">Chairman Message</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">Director Message</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Doctors</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Workshops
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="">Academics</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href=""
-                        >Varicose Veins Workshop</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href=""
-                        >India's First Microwave Ablation Workshop</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href=""
-                        >Varicose Veins SonoSummit</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href=""
-                        >IRIA National conference</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Before & After</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="">Contact Us</a>
-                </li>
-              </ul>
+    <!-- CONTACT BANNER END HERE -->
+    <!-- CONTACT DETAILS SECTION START HERE -->
+    <section class="contact-details" id="contact-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="contact-left">
+              <h4 class="my-5">Contact Details</h4>
+              <img src="assets/images/contact-img.png" alt="" />
             </div>
           </div>
-        </div>
-      </nav>
-    </header>
-    <!-- HEADER SECTION END HERE -->
-    <main>
-      <!-- CONTACT BANNER START HERE -->
-      <section class="contact-banner" id="contact-banner">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-4">
-              <img class="w-100" src="assets/images/contact-img.png" alt="" />
+          <div class="col-lg-6 ">
+            <div class="address-block">
+              <div class="d-flex align-items-center ">
+                <img class="address-img" src="assets/images/contact-address.png" alt="" />
+                <div class="p-3">
+                  <h6>Address</h6>
+                  <p>Maven Medical Center</p>
+                  <p></p>
+                  H.no: 8-2-277/B/1, Road No 2,Opp: New Rainbow Children's
+                  Hospital, Banjara Hills, Hyderabad.
+                  </p>
+                  <img src="assets/images/address-icon.png" alt="" />
+                </div>
+              </div>
             </div>
-            <div
-              class="col-lg-8 d-flex align-items-center justify-content-center"
-            >
-              <div class="p-3">
-                <p><a href="">Home</a> / <a href="">Contact Us</a></p>
-                <h1>Contact Us</h1>
-                <p>Discover our range of multispecialty healthcare services.</p>
+            <div class="address-block">
+              <div class="d-flex align-items-center ">
+                <img class="address-img" src="assets/images/contact-phone.png" alt="" />
+                <div class="p-3">
+                  <h6>Address</h6>
+                  <p>+91 1800 412 0674</p>
+                  <p>+91 1800 412 6923</p>
+                  <img src="assets/images/phone-icon.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="address-block">
+              <div class="d-flex align-items-center ">
+                <img class="address-img" src="assets/images/contact-email.png" alt="" />
+                <div class="p-3">
+                  <h6>Email</h6>
+                  <p class="word">info@mavenmedicalcenter.com</p>
+                  <img src="assets/images/email-icon.png" alt="" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- CONTACT BANNER END HERE -->
-      <!-- CONTACT DETAILS SECTION START HERE -->
-      <section class="contact-details" id="contact-details">
+      </div>
+    </section>
+    <!-- CONTACT DETAILS SECTION END HERE -->
+    <!-- BOOK AN APPOINTMENT SECTION START HERE -->
+    <section class="appointment-section" id="apponitment-section">
+      <div class="appointment py-3">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
-              <div class="contact-left">
-                <h4 class="my-5">Contact Details</h4>
-                <img src="assets/images/contact-img.png" alt="" />
-              </div>
-            </div>
-            <div
-              class="col-lg-6 "
-            >
-                <div class="address-block">
-                  <div class="d-flex align-items-center ">
-                    <img class="address-img" src="assets/images/contact-address.png" alt="" />
-                    <div class="p-3">
-                      <h6>Address</h6>
-                      <p>Maven Medical Center</p>
-                      <p></p>
-                        H.no: 8-2-277/B/1, Road No 2,Opp: New Rainbow Children's
-                        Hospital, Banjara Hills, Hyderabad.
-                      </p>
-                      <img src="assets/images/address-icon.png" alt="" />
-                    </div>
+            <div class="col-lg-6 my-2 d-flex align-items-center justify-content-center">
+              <div class="book-appointment">
+                <h5>Book An Appointment</h5>
+                <p>Fill out the form below to schedule a consultation.</p>
+                <div class="col-12">
+                  <div class="form-group mb-3">
+                    <label for="formGroupExampleInput"><span class="contact-label-text">Full Name</span><span
+                        class="mandatory-field">*</span></label>
+                    <input type="text" class="form-control mt-2" id="formGroupExampleInput"
+                      placeholder="Enter Your Full Name..." />
                   </div>
                 </div>
-                <div class="address-block">
-                  <div class="d-flex align-items-center ">
-                    <img class="address-img" src="assets/images/contact-phone.png" alt="" />
-                    <div class="p-3">
-                      <h6>Address</h6>
-                      <p>+91 1800 412 0674</p>
-                      <p>+91 1800 412 6923</p>
-                      <img src="assets/images/phone-icon.png" alt="" />
-                    </div>
+                <div class="col-12">
+                  <div class="form-group mb-3">
+                    <label for="formGroupExampleInput"><span class="contact-label-text">Condition</span><span
+                        class="mandatory-field">*</span></label>
+                    <input type="text" class="form-control mt-2" id="formGroupExampleInput2"
+                      placeholder="Enter Your Medical Condition..." />
                   </div>
                 </div>
-                <div class="address-block">
-                    <div class="d-flex align-items-center ">
-                      <img class="address-img" src="assets/images/contact-email.png" alt="" />
-                      <div class="p-3">
-                        <h6>Email</h6>
-                        <p class="word">info@mavenmedicalcenter.com</p>
-                        <img src="assets/images/email-icon.png" alt="" />
-                      </div>
-                    </div>
+                <div class="col-12">
+                  <div class="form-group mb-3">
+                    <label for="formGroupExampleInput"><span class="contact-label-text">Mobile Number</span><span
+                        class="mandatory-field">*</span></label>
+                    <input type="text" class="form-control mt-2" id="formGroupExampleInput"
+                      placeholder="Enter Your Mobile Number..." />
                   </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- CONTACT DETAILS SECTION END HERE -->
-      <!-- BOOK AN APPOINTMENT SECTION START HERE -->
-      <section class="appointment-section" id="apponitment-section">
-        <div class="appointment py-3">
-          <div class="container">
-            <div class="row">
-              <div
-                class="col-lg-6 my-2 d-flex align-items-center justify-content-center"
-              >
-                <div class="book-appointment">
-                  <h5>Book An Appointment</h5>
-                  <p>Fill out the form below to schedule a consultation.</p>
-                  <div class="col-12">
-                    <div class="form-group mb-3">
-                      <label for="formGroupExampleInput"
-                        ><span class="contact-label-text">Full Name</span
-                        ><span class="mandatory-field">*</span></label
-                      >
-                      <input
-                        type="text"
-                        class="form-control mt-2"
-                        id="formGroupExampleInput"
-                        placeholder="Enter Your Full Name..."
-                      />
-                    </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group mb-3">
+                    <label for="formGroupExampleInput"><span class="contact-label-text">Email</span><span
+                        class="mandatory-field">*</span></label>
+                    <input type="text" class="form-control mt-2" id="formGroupExampleInput"
+                      placeholder="Enter Your Email..." />
                   </div>
-                  <div class="col-12">
-                    <div class="form-group mb-3">
-                      <label for="formGroupExampleInput"
-                        ><span class="contact-label-text">Condition</span
-                        ><span class="mandatory-field">*</span></label
-                      >
-                      <input
-                        type="text"
-                        class="form-control mt-2"
-                        id="formGroupExampleInput2"
-                        placeholder="Enter Your Medical Condition..."
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-group mb-3">
-                      <label for="formGroupExampleInput"
-                        ><span class="contact-label-text">Mobile Number</span
-                        ><span class="mandatory-field">*</span></label
-                      >
-                      <input
-                        type="text"
-                        class="form-control mt-2"
-                        id="formGroupExampleInput"
-                        placeholder="Enter Your Mobile Number..."
-                      />
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-group mb-3">
-                      <label for="formGroupExampleInput"
-                        ><span class="contact-label-text">Email</span
-                        ><span class="mandatory-field">*</span></label
-                      >
-                      <input
-                        type="text"
-                        class="form-control mt-2"
-                        id="formGroupExampleInput"
-                        placeholder="Enter Your Email..."
-                      />
-                    </div>
-                  </div>
-                  <div class="text-center mt-3">
-                    <button class="btn submit-btn">SUBMIT</button>
-                  </div>
+                </div>
+                <div class="text-center mt-3">
+                  <button class="btn submit-btn">SUBMIT</button>
                 </div>
               </div>
-              <div
-                class="col-lg-6 my-2 d-flex align-items-center justify-content-center"
-              >
-                <div class="medical-sector">
-                  <h5>
-                    Maven Hospital - Establishing New Benchmarks in The Medical
-                    Sector
-                  </h5>
-                  <div class="medical-block d-flex">
-                    <img src="assets/images/appointment-1.png" alt="" />
-                    <div class="px-2">
-                      <h6>250 Bedded Facility</h6>
-                      <p>
-                        With a 200 Bedded facility, rest assured that you are
-                        always secure with PRK Hospitals.
-                      </p>
-                    </div>
+            </div>
+            <div class="col-lg-6 my-2 d-flex align-items-center justify-content-center">
+              <div class="medical-sector">
+                <h5>
+                  Maven Hospital - Establishing New Benchmarks in The Medical
+                  Sector
+                </h5>
+                <div class="medical-block d-flex">
+                  <img src="assets/images/appointment-1.png" alt="" />
+                  <div class="px-2">
+                    <h6>250 Bedded Facility</h6>
+                    <p>
+                      With a 200 Bedded facility, rest assured that you are
+                      always secure with PRK Hospitals.
+                    </p>
                   </div>
-                  <div class="medical-block d-flex">
-                    <img src="assets/images/appointment-2.png" alt="" />
-                    <div class="px-2">
-                      <h6>Critical Care</h6>
-                      <p>
-                        Swift and flawless emergency responsiveness always shape
-                        PRK Hospitals to be on top!
-                      </p>
-                    </div>
+                </div>
+                <div class="medical-block d-flex">
+                  <img src="assets/images/appointment-2.png" alt="" />
+                  <div class="px-2">
+                    <h6>Critical Care</h6>
+                    <p>
+                      Swift and flawless emergency responsiveness always shape
+                      PRK Hospitals to be on top!
+                    </p>
                   </div>
-                  <div class="medical-block d-flex">
-                    <img src="assets/images/appointment-3.png" alt="" />
-                    <div class="px-2">
-                      <h6>Success Of Treatment</h6>
-                      <p>
-                        Being synonymous with quality and successful treatments
-                        is our benchmark, right from the beginning.
-                      </p>
-                    </div>
+                </div>
+                <div class="medical-block d-flex">
+                  <img src="assets/images/appointment-3.png" alt="" />
+                  <div class="px-2">
+                    <h6>Success Of Treatment</h6>
+                    <p>
+                      Being synonymous with quality and successful treatments
+                      is our benchmark, right from the beginning.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- BOOK AN APPOINTMENT SECTION END HERE -->
-      <!-- MAPS SECTION START HERE -->
-      <section class="location-map my-5" id="location-map">
-        <div class="container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.732439253289!2d78.43004687594043!3d17.42462340172979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97e3ac66bde9%3A0xd6099f6906d7bc6c!2sMaven%20Medical%20Center%20-%20Varicose%20Veins%20%7C%20Piles%2C%20Fissure%2C%20Fistula%20%7C%20Thyroid%20Treatment!5e0!3m2!1sen!2sin!4v1714991654954!5m2!1sen!2sin"
-            width="100%"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+      </div>
+    </section>
+    <!-- BOOK AN APPOINTMENT SECTION END HERE -->
+    <!-- MAPS SECTION START HERE -->
+    <section class="location-map my-5" id="location-map">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.732439253289!2d78.43004687594043!3d17.42462340172979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97e3ac66bde9%3A0xd6099f6906d7bc6c!2sMaven%20Medical%20Center%20-%20Varicose%20Veins%20%7C%20Piles%2C%20Fissure%2C%20Fistula%20%7C%20Thyroid%20Treatment!5e0!3m2!1sen!2sin!4v1714991654954!5m2!1sen!2sin"
+          width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <!-- MAPS SECTION END HERE -->
+  </main>
+  <!-- footer section start her -->
+  <footer class="footer-sec p-lg-5 p-3 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h4>For Patients</h4>
+          <ul>
+            <li><a href=""><span></span>Find a Doctor</a></li>
+            <li><a href="">Book Appointment</a></li>
+            <li><a href="">Treatments</a></li>
+            <li><a href="">Emergency 24x7</a></li>
+            <li><a href="">Technology</a></li>
+            <li><a href="">Patient Testimonials</a></li>
+            <li><a href="">CPR</a></li>
+          </ul>
         </div>
-      </section>
-      <!-- MAPS SECTION END HERE -->
-    </main>
-    <footer></footer>
-    <!-- BOOTSTRAP SCRIPT 5.3.3 CDN LINK -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- JQUERY JS CDN 3.7.1 LINK -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- SLICK JS CDN 1.9.0 LINK -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-  </body>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h4>Specialities</h4>
+          <ul>
+            <li><a href=""><span></span>Cardiac Care</a></li>
+            <li><a href="">Cancer Care</a></li>
+            <li><a href="">Neurosciences</a></li>
+            <li><a href="">Gastrosciences</a></li>
+            <li><a href="">Orthopaedics</a></li>
+            <li><a href="">Renal Care</a></li>
+            <li><a href="">Liver Transplant</a></li>
+            <li><a href="">Bone Marrow Transplant</a></li>
+            <li><a href="">Lung Transplant</a></li>
+            <li><a href="">Chest Surgery</a></li>
+            <li><a href="">More +</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <h4>Our Hospitals</h4>
+          <ul>
+            <li><a href=""><span></span>Maven medical centre</a></li>
+            <li><a href="">Maven medical centre</a></li>
+            <li><a href="">Maven medical centre</a></li>
+            <li><a href="">Maven medical centre</a></li>
+            <li><a href="">Maven medical centre</a></li>
+            <li><a href="">Maven medical centre</a></li>
+            <li><a href="">Maven medical centre</a></li>
+            <li><a href="">Maven medical centre</a></li>
+            <li><a href="">Maven medical centre</a></li>
+            <li><a href="">Maven medical centre</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h4>Corporate</h4>
+          <ul>
+            <li><a href=""><span></span>Help Desk</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Blogs</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Feedback</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">News & Events</a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Policies & Forms</a></li>
+            <li><a href="">Coronary Stent Prices</a></li>
+            <li><a href="">Orthopaedic Knee Implant Prices</a></li>
+            <li><a href="">Biomedical Waste Report</a></li>
+            <li><a href="">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <h4>Download Our App</h4>
+          <p>Download our eCLINIC App to book your
+            appointments at your finger tips</p>
+          <button class="google-play-but"><i class="fa-brands fa-google-play"></i> Get it on Google Play</button>
+          <button class="google-play-but"><i class="fa-brands fa-apple"></i> <span class="ms-1">Get it on Google Play
+            </span></button>
+          <button class="emergency-but"><img src="assets/images/emergency-svg.svg" alt=""> Get it on Google
+            Play</button>
+        </div>
+      </div>
+      <div class="icons mb-4">
+        <span><i class="fa-brands fa-facebook"></i></span>
+        <span><i class="fa-brands fa-x-twitter"></i></span>
+        <span><i class="fa-brands fa-instagram"></i></span>
+        <span><i class="fa-brands fa-youtube"></i></span>
+        <span></span>
+      </div>
+      <div class="bord mb-4"></div>
+      <div class="privacy-text">
+        <p>all rights reserved by maven hospitals <span> privacy policy</span> <span> terms & conditions</span></p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end her -->
+  <!-- BOOTSTRAP SCRIPT 5.3.3 CDN LINK -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JQUERY JS CDN 3.7.1 LINK -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- SLICK JS CDN 1.9.0 LINK -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+</body>
+
 </html>
