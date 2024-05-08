@@ -1312,4 +1312,66 @@
     -webkit-clip-path: none;
             clip-path: none;
   }
+}
+.gallery-banner {
+  font-family: "Poppins", sans-serif;
+  background-color: #196788;
+  padding: 4% 0;
+  color: #fff;
+}
+.gallery-banner h3 {
+  margin-top: 20px;
+}
+.gallery-banner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.maven-gallery-sec .controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+  list-style: none;
+}
+.maven-gallery-sec .controls .buttons {
+  width: -moz-max-content;
+  width: max-content;
+  padding: 8px;
+  background: #29ABE2;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 8px 15px;
+  box-shadow: 0 3px 5px black;
+  text-align: center;
+}
+.maven-gallery-sec .controls .active {
+  background: #124D68;
+}
+.maven-gallery-sec .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.maven-gallery-sec .image-container .image {
+  height: 250px;
+  width: 350px;
+  overflow: hidden;
+  border: 8px solid #fff;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-right-color: #196788;
+  border-left-color: #196788;
+}
+.maven-gallery-sec .image-container .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=styles.css.map */
