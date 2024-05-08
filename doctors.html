@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- BOOTSTRAP CSS 5.3.3 CDN LINK -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME ICON 6.5.2 CDN LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- SLICK THEME CSS CDN 1.9.0 LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+    />
+    <!-- SLICK CSS CDN 1.9.0 LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- TOP NAV SECTION START HERE -->
+    <section class="top-nav py-2" id="top-nav">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-3 col-md-3 col-sm-12 top-nav-item d-none d-md-flex"
+          >
+            <i class="fa-regular fa-clock"></i>Hours : Mon-Fri : 8am to 7pm
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 top-nav-item">
+            <i class="fa-solid fa-location-dot"></i>Maven Medical Center,
+            Banjara Hills
+          </div>
+          <div
+            class="col-lg-2 col-md-2 col-sm-12 top-nav-item d-none d-md-flex"
+          >
+            <i class="fa-solid fa-tent"></i> Camps
+          </div>
+          <div
+            class="col-lg-2 col-md-2 col-sm-12 top-nav-item d-none d-md-flex"
+          >
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-x-twitter"></i></span>
+            <span><i class="fa-brands fa-youtube"></i></span>
+          </div>
+          <div
+            class="col-lg-2 col-md-2 col-sm-12 top-nav-item d-none d-md-flex"
+          >
+            <button class="appointment-btn">Get Appointment</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TOP NAV SECTION END HERE -->
+    <!-- HEADER SECTION START HERE -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container py-2">
+          <a class="navbar-brand fw-bold" href="index.html">
+            <img class="w-100" src="assets/images/maven-logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="navbarNav"
+            aria-labelledby="navbarNavLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="navbarNavLabel">
+                <img src="assets/images/logo1.svg" alt="" />
+              </h5>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    About Us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="aboutus.html">About MMC</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="chairmanMessage.html"
+                        >Chairman Message</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="directorMessage.html"
+                        >Director Message</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicepage.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Doctors</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Workshops
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="">Academics</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=""
+                        >Varicose Veins Workshop</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=""
+                        >India's First Microwave Ablation Workshop</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=""
+                        >Varicose Veins SonoSummit</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href=""
+                        >IRIA National conference</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Before & After</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blogs.html">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HEADER SECTION END HERE -->
+    <main>
+      <!-- DOCTORS BANNER SECTION START HERE -->
+      <section class="doctors-banner" id="doctors-banner">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4"></div>
+            <div
+              class="col-lg-8 d-flex align-items-center justify-content-center"
+            >
+              <div class="p-3 my-5">
+                <p><a href="">Home</a> / <a href="">Doctors</a></p>
+                <h1>Doctors</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DOCTORS BANNER SECTION END HERE -->
+      <!-- DOCTORS SECTION START HERE -->
+      <section class="doctors-section" id="doctors-section">
+        <div class="container">
+          <div class="row">
+            <div class="doctor-category py-3">
+              <div class="doctor-list justify-content-center">
+                <button class="doctor_button_active doctor-button">All</button>
+                <button class="doctor-button">Varicose Veins</button>
+                <button class="doctor-button">Piles</button>
+                <button class="doctor-button">Neuropsychiatry</button>
+                <button class="doctor-button">Plastic Surgery</button>
+              </div>
+            </div>
+            <div class="doctor-block-inside doctor-block-inside_active">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr-enagala-rajesh-kumar.webp"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr. Rajesh Kumar Enagala</h4>
+                      <span>Interventional Radiologist</span>
+                      <p class="py-3">
+                        Dr. Rajesh Kumar Enagala is the owner and founder of
+                        Maven Medical Center Hospital, Banjara Hills, Hyderabad.
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr.balaji.png"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr. Balaji Patel. Kola</h4>
+                      <span>Interventional Radiology</span>
+                      <p class="py-3">
+                        MBBS, MD - Radio Diagnosis/Radiology, Fellowship in
+                        Vascular Interventional Radiology(FVIR) Interventional
+                        Radiologist, (FIO) Fellowship in Interventional Oncology
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr.sanju-singh.png"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr. Sanjeev Singh Yadav</h4>
+                      <span>Senior Surgical Specialist</span>
+                      <p class="py-3">
+                        Following the foot steps of this Surgeon Father, he has
+                        worked in many capacities from Registrar to independent
+                        consultant in the field of General Surgery.
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr-vamsi-krishna-n.webp"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr Vamsi Krishna N</h4>
+                      <span>MBBS, M.S. FSS FISS | Ortho & Spine Surgeon</span>
+                      <p class="py-3">
+                        Dr Vamsi Krishna N, MS FSS FISS, did his MBBS in
+                        prestegious Andhra Medical College, Visakhapatnam and
+                        Post Gradation from Rangaraya Medical College
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr.kranthi.png"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr B.Kranthi Kiran M.D.</h4>
+                      <span>General Psychiatry and Neuropsychiatry</span>
+                      <p class="py-3">
+                        Dr. Kranthi Kiran did his M.B.B.S from KAKATIYA MEDICAL
+                        COLLEGE in Warangal,India.He completed his residency
+                        training in general psychiatry and neuropsychiatry at
+                        THE CHICAGO MEDICIAL SCHOOL under supervision of Dr.
+                        Michael Alan Taylor
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr-rehan-sabir-momin.webp"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr. Rehan Sabir Momin</h4>
+                      <span>General Surgeon</span>
+                      <p class="py-3">
+                        Dr Rehan Sabir Momin is a qualified General Surgeon &
+                        Professor of Surgery. He has more than 16 years of work
+                        experience and also have been teaching surgery for more
+                        than a decade in medical colleges.
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr-shameem-unnisa-shaikh1.webp"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr.Shameem Unnisa Shaikh</h4>
+                      <span
+                        >MBBS, MS General Surgery, Fellowship Breast
+                        Cancer</span
+                      >
+                      <p class="py-3">
+                        Dr. Shameem Unnisa Shaikh is Specialist Female Surgeon
+                        for Breast and Anorectal surgery (General & Breast
+                        OncoSurgeon)
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="doctor-block-inside">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr-enagala-rajesh-kumar.webp"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr. Rajesh Kumar Enagala</h4>
+                      <span>Interventional Radiologist</span>
+                      <p class="py-3">
+                        Dr. Rajesh Kumar Enagala is the owner and founder of
+                        Maven Medical Center Hospital, Banjara Hills, Hyderabad.
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr.balaji.png"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr. Balaji Patel. Kola</h4>
+                      <span>Interventional Radiology</span>
+                      <p class="py-3">
+                        MBBS, MD - Radio Diagnosis/Radiology, Fellowship in
+                        Vascular Interventional Radiology(FVIR) Interventional
+                        Radiologist, (FIO) Fellowship in Interventional Oncology
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="doctor-block-inside">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr.sanju-singh.png"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr. Sanjeev Singh Yadav</h4>
+                      <span>Senior Surgical Specialist</span>
+                      <p class="py-3">
+                        Following the foot steps of this Surgeon Father, he has
+                        worked in many capacities from Registrar to independent
+                        consultant in the field of General Surgery.
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr-rehan-sabir-momin.webp"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr. Rehan Sabir Momin</h4>
+                      <span>General Surgeon</span>
+                      <p class="py-3">
+                        Dr Rehan Sabir Momin is a qualified General Surgeon &
+                        Professor of Surgery. He has more than 16 years of work
+                        experience and also have been teaching surgery for more
+                        than a decade in medical colleges.
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr-shameem-unnisa-shaikh1.webp"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr.Shameem Unnisa Shaikh</h4>
+                      <span
+                        >MBBS, MS General Surgery, Fellowship Breast
+                        Cancer</span
+                      >
+                      <p class="py-3">
+                        Dr. Shameem Unnisa Shaikh is Specialist Female Surgeon
+                        for Breast and Anorectal surgery (General & Breast
+                        OncoSurgeon)
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="doctor-block-inside">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="doctor-card my-2">
+                    <img
+                      class="w-100"
+                      src="assets/images/dr.kranthi.png"
+                      alt=""
+                    />
+                    <div class="service-card-content p-3">
+                      <h4>Dr B.Kranthi Kiran M.D.</h4>
+                      <span>General Psychiatry and Neuropsychiatry</span>
+                      <p class="py-3">
+                        Dr. Kranthi Kiran did his M.B.B.S from KAKATIYA MEDICAL
+                        COLLEGE in Warangal,India.He completed his residency
+                        training in general psychiatry and neuropsychiatry at
+                        THE CHICAGO MEDICIAL SCHOOL under supervision of Dr.
+                        Michael Alan Taylor
+                      </p>
+                      <a href=""
+                        >Book Consultation <img src="assets/images/arrow.png"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="doctor-block-inside">
+              <div class="row"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- DOCTORS SECTION END HERE -->
+    </main>
+    <!-- footer section start her -->
+    <footer class="footer-sec p-lg-5 p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <h4>For Patients</h4>
+            <ul>
+              <li>
+                <a href=""><span></span>Find a Doctor</a>
+              </li>
+              <li><a href="">Book Appointment</a></li>
+              <li><a href="">Treatments</a></li>
+              <li><a href="">Emergency 24x7</a></li>
+              <li><a href="">Technology</a></li>
+              <li><a href="">Patient Testimonials</a></li>
+              <li><a href="">CPR</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <h4>Specialities</h4>
+            <ul>
+              <li>
+                <a href=""><span></span>Cardiac Care</a>
+              </li>
+              <li><a href="">Cancer Care</a></li>
+              <li><a href="">Neurosciences</a></li>
+              <li><a href="">Gastrosciences</a></li>
+              <li><a href="">Orthopaedics</a></li>
+              <li><a href="">Renal Care</a></li>
+              <li><a href="">Liver Transplant</a></li>
+              <li><a href="">Bone Marrow Transplant</a></li>
+              <li><a href="">Lung Transplant</a></li>
+              <li><a href="">Chest Surgery</a></li>
+              <li><a href="">More +</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <h4>Our Hospitals</h4>
+            <ul>
+              <li>
+                <a href=""><span></span>Maven medical centre</a>
+              </li>
+              <li><a href="">Maven medical centre</a></li>
+              <li><a href="">Maven medical centre</a></li>
+              <li><a href="">Maven medical centre</a></li>
+              <li><a href="">Maven medical centre</a></li>
+              <li><a href="">Maven medical centre</a></li>
+              <li><a href="">Maven medical centre</a></li>
+              <li><a href="">Maven medical centre</a></li>
+              <li><a href="">Maven medical centre</a></li>
+              <li><a href="">Maven medical centre</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4>Corporate</h4>
+            <ul>
+              <li>
+                <a href=""><span></span>Help Desk</a>
+              </li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Blogs</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Feedback</a></li>
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">News & Events</a></li>
+              <li><a href="">Investor Relations</a></li>
+              <li><a href="">Policies & Forms</a></li>
+              <li><a href="">Coronary Stent Prices</a></li>
+              <li><a href="">Orthopaedic Knee Implant Prices</a></li>
+              <li><a href="">Biomedical Waste Report</a></li>
+              <li><a href="">Sitemap</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4>Download Our App</h4>
+            <p>
+              Download our eCLINIC App to book your appointments at your finger
+              tips
+            </p>
+            <button class="google-play-but">
+              <i class="fa-brands fa-google-play"></i> Get it on Google Play
+            </button>
+            <button class="google-play-but">
+              <i class="fa-brands fa-apple"></i>
+              <span class="ms-1">Get it on Google Play </span>
+            </button>
+            <button class="emergency-but">
+              <img src="assets/images/emergency-svg.svg" alt="" /> Get it on
+              Google Play
+            </button>
+          </div>
+        </div>
+        <div class="icons mb-4">
+          <span><i class="fa-brands fa-facebook"></i></span>
+          <span><i class="fa-brands fa-x-twitter"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-youtube"></i></span>
+          <span></span>
+        </div>
+        <div class="bord mb-4"></div>
+        <div class="privacy-text">
+          <p>
+            all rights reserved by maven hospitals <span> privacy policy</span>
+            <span> terms & conditions</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end her -->
+    <!-- BOOTSTRAP SCRIPT 5.3.3 CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JQUERY JS CDN 3.7.1 LINK -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- SLICK JS CDN 1.9.0 LINK -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+      let button1 = document.querySelectorAll(".doctor-list button");
+      let content_inside1 = document.querySelectorAll(".doctor-block-inside");
+      Array.from(button1).forEach(function (buttonArray, i) {
+        buttonArray.addEventListener("click", function () {
+          Array.from(button1).forEach((buttonAll) =>
+            buttonAll.classList.remove("doctor_button_active")
+          );
+          Array.from(content_inside1).forEach((content_insideAll) =>
+            content_insideAll.classList.remove("doctor-block-inside_active")
+          );
+          button1[i].classList.add("doctor_button_active");
+          content_inside1[i].classList.add("doctor-block-inside_active");
+        });
+      });
+    </script>
+  </body>
+</html>

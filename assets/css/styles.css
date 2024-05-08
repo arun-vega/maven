@@ -1338,4 +1338,79 @@
     -webkit-clip-path: none;
             clip-path: none;
   }
+}
+.doctors-banner {
+  background: url(/assets/images/contact-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+.doctors-banner a {
+  text-decoration: none;
+  color: #fff;
+}
+.doctors-banner .container-fluid {
+  -webkit-clip-path: polygon(45% 0, 100% 0, 100% 100%, 36% 100%);
+          clip-path: polygon(45% 0, 100% 0, 100% 100%, 36% 100%);
+  background: rgba(25, 103, 136, 0.85);
+}
+
+.doctor-block-inside {
+  display: none;
+}
+
+.doctor-block-inside_active {
+  display: block;
+}
+
+.doctor-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  justify-content: center;
+}
+.doctor-list button {
+  border: 1px solid #196788;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.doctor-card {
+  min-height: 750px;
+  background-color: #196788;
+  color: #fff;
+  padding: 3px;
+  position: relative;
+}
+.doctor-card span {
+  color: #259ACB;
+  font-weight: 600;
+}
+.doctor-card img {
+  border-radius: 10px;
+}
+.doctor-card a {
+  position: absolute;
+  bottom: 25px;
+  color: #259ACB;
+  text-decoration: none;
+  border: 1px solid #196788;
+  background-color: #fff;
+  color: #196788;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .doctor-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .doctor-list button {
+    width: 100%;
+    margin: 10px 0px;
+  }
 }/*# sourceMappingURL=styles.css.map */
