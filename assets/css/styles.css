@@ -372,10 +372,12 @@
   font-family: "Poppins", sans-serif;
 }
 .our-blogs-home .back-color .blog-card-bg .content h5 {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .our-blogs-home .back-color .blog-card-bg .content p {
   font-size: 14px;
+  margin: 0px 0px 5px 0px;
 }
 .our-blogs-home .back-color .blog-card-bg .content a {
   text-decoration: none;
@@ -397,13 +399,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -80px;
+  margin: 40px 0px 30px 0px;
 }
 .our-blogs-home .back-color .event .button-head .event-button {
   border: 2px solid #196788;
   border-radius: 10px;
   padding: 5px 20px 5px 20px;
-  font-size: 18px;
   font-family: "Poppins", sans-serif;
 }
 .our-blogs-home .back-color .event .button-head .button_active {
@@ -430,7 +431,7 @@
   font-family: "Poppins", sans-serif;
 }
 .our-blogs-home .back-color .event .event-card p {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Poppins", sans-serif;
 }
 .our-blogs-home .back-color .event .event-card a {
@@ -548,12 +549,15 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 390px) {
   .center-excellence-sec .card {
-    width: 280px;
+    width: 100%;
     margin-left: 0px;
   }
   .center-excellence-sec .card1 {
-    width: 280px;
+    width: 100%;
     margin-left: 0px;
+  }
+  .our-blogs-home .event .button-head .event-button {
+    font-size: 12px;
   }
 }
 @media only screen and (max-width: 990px) {
