@@ -1,0 +1,77 @@
+// Doctor banner styles start here
+.doctors-banner{
+    background: url(/assets/images/contact-banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:$color-white;
+    position: relative;
+    a{
+        text-decoration: none;
+        color:$color-white;
+    }
+.container-fluid{
+    clip-path: polygon(45% 0, 100% 0, 100% 100%, 36% 100%);
+     background: rgba(25, 103, 136, 0.85);
+}
+}
+// Doctor message banner styles end here
+// Doctor section styles start here
+.doctor-block-inside {
+    display: none;
+}
+.doctor-block-inside_active {
+    display: block;
+}
+.doctor-list{
+    display:flex;
+    list-style-type: none;
+    padding:$p-0;
+    justify-content: center;
+    button{
+        border:$border-1 solid $border-primary;
+        padding:$p-10;
+        margin:$m-10;
+        border-radius: 10px;
+        background-color: $bg-white;
+    }
+}
+.doctor-card {
+    min-height:750px;
+    background-color: $bg-primary;
+    color:$color-white;
+    padding:$p-3;
+    position: relative;
+    span {
+        color: $color-pacificblue;
+        font-weight: $fw-600;
+    }
+   
+img{
+    border-radius: 10px;
+}
+    a {
+        position: absolute;
+        bottom:25px;
+        color: $color-pacificblue;
+        text-decoration: none;
+        border:$border-1 solid $border-primary;
+        background-color: $bg-white;
+        color:$color-primary;
+        border-radius:10px;
+        padding:$p-5 $p-10;
+    }
+ 
+}
+// Doctor section styles end here
+// Media queries
+@media only screen and (max-width:768px) {
+    .doctor-list{
+        display:flex;
+        flex-direction: column;
+        button{
+            width:100%;
+            margin:$m-10 $m-0;
+       
+        }
+    }
+}
