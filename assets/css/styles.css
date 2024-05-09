@@ -1572,4 +1572,19 @@
 }
 .bio-waste td {
   font-size: 16px;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../font/Poppins-Regular.ttf");
+}
+.banner-section .banner-img {
+  position: relative;
+}
+.banner-section .banner-img .banner-content {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  color: #fff;
+  font-size: 40px;
 }/*# sourceMappingURL=styles.css.map */
