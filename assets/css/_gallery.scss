@@ -1,0 +1,57 @@
+.gallery-banner{
+    font-family: $font-poppins;
+    background-color: $color-primary;
+    padding: 4% 0;
+    color: $color-white;
+    h3{
+        margin-top: 20px;
+    }
+    a{
+        color: $color-white;
+        text-decoration: none;
+    }
+}
+.maven-gallery-sec{
+    .controls{
+        @include flex-align-center;
+        flex-wrap: wrap;
+        padding: $p-20 $p-0;
+        list-style: none;
+        .buttons{
+            width: max-content;
+            padding: $p-8 ;
+            background:$color-secondary;
+            border-radius:$border-3;
+            color: $color-white;
+            font-size: $fs-16;
+            cursor: pointer;
+            margin: $m-8 $m-15;
+            box-shadow: 0 3px 5px black; 
+            text-align: center;
+        }
+        .active{
+            background: $color-peacockblue;
+        }
+    }
+    .image-container{
+        @include flex-align-center;
+        flex-wrap: wrap;
+        .image{
+            height: 250px;
+            width: 350px;
+            overflow: hidden;
+            border: $border-8 solid $color-white; 
+            box-shadow: 0 3px 5px rgba(0,0,0,.3); 
+            margin: $m-20;
+            border-top-left-radius: $border-30;
+            border-bottom-right-radius: $border-30;
+            border-right-color: $color-primary;
+            border-left-color: $color-primary;
+            img{
+                height: $h-100;
+                width: $w-100;
+                object-fit: cover;
+            }
+        }
+    }
+}
