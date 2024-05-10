@@ -12,12 +12,15 @@
         align-items: center;
         justify-content: center;
         font-size: $fs-15;
-
+        a{
+            text-decoration: none;
+            color:$color-white;
+        }
         i {
             padding-right: $p-15;
         }
     }
-
+   
     .appointment-btn {
         border: none;
         outline: none;

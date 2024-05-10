@@ -16,6 +16,10 @@
   justify-content: center;
   font-size: 15px;
 }
+.top-nav .top-nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
 .top-nav .top-nav-item i {
   padding-right: 15px;
 }
@@ -1586,21 +1590,29 @@
   font-size: 16px;
 }
 
-@font-face {
-  font-family: "Poppins";
-  src: url("../font/Poppins-Regular.ttf");
-}
-.banner-section .banner-img {
+.testimonial-banner {
+  background: url(/assets/images/contact-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
   position: relative;
 }
-.banner-section .banner-img .banner-content {
-  position: absolute;
-  top: 50%;
-  right: 50%;
+.testimonial-banner a {
+  text-decoration: none;
   color: #fff;
-  font-size: 40px;
+}
+.testimonial-banner .container-fluid {
+  -webkit-clip-path: polygon(45% 0, 100% 0, 100% 100%, 36% 100%);
+          clip-path: polygon(45% 0, 100% 0, 100% 100%, 36% 100%);
+  background: rgba(25, 103, 136, 0.85);
 }
 
+@media only screen and (max-width: 768px) {
+  .testimonial-banner .container-fluid {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+}
 .before-after-banner {
   background: url(/assets/images/contact-banner.png);
   background-repeat: no-repeat;

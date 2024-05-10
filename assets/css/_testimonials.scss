@@ -1,15 +1,20 @@
-@import './variables';
-
-.banner-section {
-    .banner-img {
-        position: relative;
-
-        .banner-content {
-            position: absolute;
-            top: 50%;
-            right: 50%;
-            color: $color-white;
-            font-size: $fs-40;
-        }
+.testimonial-banner{
+    background: url(/assets/images/contact-banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:$color-white;
+    position: relative;
+    a{
+        text-decoration: none;
+        color:$color-white;
+    }
+.container-fluid{
+    clip-path: polygon(45% 0, 100% 0, 100% 100%, 36% 100%);
+     background: rgba(25, 103, 136, 0.85);
+}
+}
+@media only screen and (max-width:768px) {
+    .testimonial-banner .container-fluid{
+        clip-path:none;
     }
 }
