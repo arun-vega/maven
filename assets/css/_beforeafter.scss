@@ -1,0 +1,49 @@
+// Before after banner styles start here
+.before-after-banner{
+    background: url(/assets/images/contact-banner.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:$color-white;
+    a{
+        text-decoration: none;
+        color:$color-white;
+    }
+.container-fluid{
+     background: rgba(25, 103, 136, 0.85);
+}
+}
+// Before after banner styles end here
+// Before after section styles start here
+.before-after-display h3{
+    color:$color-primary;
+    font-weight: $fw-700;
+}
+.before-after-block-inside {
+    display: none;
+}
+.before-after-block-inside_active {
+    display: block;
+}
+.before-after-section{
+    z-index: 1;
+    position: sticky;
+    top: 100px;
+}
+.before-after {
+    button{
+        background-color: $bg-primary;
+        color:$color-white;
+        width:100%;
+        outline:none;
+        border:none;
+        padding:$p-10;
+       margin-bottom: $m-10;
+    }
+    .before-after_button_active{
+        border:$border-1 solid $border-primary;
+        color:$color-primary;
+        background-color: $bg-white;
+        font-weight: $fw-700;
+    }
+}
+// Before after section styles end here

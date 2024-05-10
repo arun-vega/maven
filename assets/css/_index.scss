@@ -11,6 +11,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: $fs-15;
 
         i {
             padding-right: $p-15;
@@ -37,27 +38,29 @@
 .nav-link {
     font-weight: $fw-600;
 }
-
-.dropdown {
-    .dropdown-menu {
-        display: block;
-        visibility: hidden;
-        border-radius: 0px;
+@keyframes dropdownAnimation {
+    0% {
         opacity: 0;
-          transform: translateY(30px); 
-     transition: 0s ease 0s; 
+        transform: translateY(30px);
     }
-
-    &:hover {
-        >.dropdown-menu {
-            visibility: visible;
-            display: block;
-            opacity: 1;
-            transform: translateY(0);
-            transition: 0.5s ease 0.1s;
-        }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+}
+.dropdown:hover .dropdown-menu {
+    display: block; 
+    animation: dropdownAnimation 0.5s ease-in-out; 
+}
+
 
 // Header styles end here
 // Give us call styles start here
@@ -89,7 +92,7 @@
     border: $border-1 solid $border-Peacockblue;
     border-radius: 10px;
     padding: $p-30;
-    background-color: $bg-Lightblue;
+    background-color: rgb(234,247,252);
 
     .service-call-item {
         padding: $p-20;
@@ -181,6 +184,7 @@
         font-size: $fs-18;
         border-radius: 5px;
     }
+    
     .service_button_active{
         background-color: $bg-white;
         color:$color-primary;
