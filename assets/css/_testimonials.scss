@@ -1,0 +1,15 @@
+@import './variables';
+
+.banner-section {
+    .banner-img {
+        position: relative;
+
+        .banner-content {
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            color: $color-white;
+            font-size: $fs-40;
+        }
+    }
+}
