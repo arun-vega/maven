@@ -224,8 +224,10 @@
         border-radius: 10px;
     }
 
-    p {
+    a {
         text-align: center;
+        text-decoration: none;
+        color:$color-primary;
 
         img {
             height: 70px;
@@ -502,7 +504,8 @@
 
         .last-button {
             text-align: center;
-
+            justify-content: center;
+            display: flex;
             button {
                 border: $border-2 solid $border-white;
                 padding: 5px 40px 5px 40px;

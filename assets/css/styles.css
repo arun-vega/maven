@@ -197,10 +197,12 @@
 .patient-stories img {
   border-radius: 10px;
 }
-.patient-stories p {
+.patient-stories a {
   text-align: center;
+  text-decoration: none;
+  color: #196788;
 }
-.patient-stories p img {
+.patient-stories a img {
   height: 70px;
   width: 70px;
   margin-left: -10px;
@@ -422,6 +424,8 @@
 }
 .our-blogs-home .back-color .last-button {
   text-align: center;
+  justify-content: center;
+  display: flex;
 }
 .our-blogs-home .back-color .last-button button {
   border: 2px solid #fff;
