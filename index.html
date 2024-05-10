@@ -1797,37 +1797,41 @@
     <!-- SLICK JS CDN 1.9.0 LINK -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="assets/javascript/home .js"></script>
+
     <script>
-      let button = document.querySelectorAll(".event button");
-      let content_inside = document.querySelectorAll(".content_inside");
-      Array.from(button).forEach(function (buttonArray, i) {
-        buttonArray.addEventListener("click", function () {
-          Array.from(button).forEach((buttonAll) =>
-            buttonAll.classList.remove("button_active")
-          );
-          Array.from(content_inside).forEach((content_insideAll) =>
-            content_insideAll.classList.remove("content_inside_active")
-          );
-          button[i].classList.add("button_active");
-          content_inside[i].classList.add("content_inside_active");
+      function addClickListener(buttons, contentInside) {
+        Array.from(buttons).forEach(function (buttonArray, i) {
+          buttonArray.addEventListener("click", function () {
+            Array.from(buttons).forEach((buttonAll) =>
+              buttonAll.classList.remove(
+                "button_active",
+                "service_button_active"
+              )
+            );
+            Array.from(contentInside).forEach((contentInsideAll) =>
+              contentInsideAll.classList.remove(
+                "content_inside_active",
+                "service-block-inside_active"
+              )
+            );
+            buttonArray.classList.add("button_active", "service_button_active");
+            contentInside[i].classList.add(
+              "content_inside_active",
+              "service-block-inside_active"
+            );
+          });
         });
-      });
-    </script>
-    <script>
-      let button1 = document.querySelectorAll(".service-list button");
-      let content_inside1 = document.querySelectorAll(".service-block-inside");
-      Array.from(button1).forEach(function (buttonArray, i) {
-        buttonArray.addEventListener("click", function () {
-          Array.from(button1).forEach((buttonAll) =>
-            buttonAll.classList.remove("service_button_active")
-          );
-          Array.from(content_inside1).forEach((content_insideAll) =>
-            content_insideAll.classList.remove("service-block-inside_active")
-          );
-          button1[i].classList.add("service_button_active");
-          content_inside1[i].classList.add("service-block-inside_active");
-        });
-      });
+      }
+
+      let techButtons = document.querySelectorAll(".event button");
+      let techContentInside = document.querySelectorAll(".content_inside");
+      addClickListener(techButtons, techContentInside);
+
+      let menuButtons = document.querySelectorAll(".service-list button");
+      let menuContentInside = document.querySelectorAll(
+        ".service-block-inside"
+      );
+      addClickListener(menuButtons, menuContentInside);
     </script>
   </body>
 </html>

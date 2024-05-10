@@ -1488,6 +1488,10 @@
     width: 100%;
     margin: 10px 0px;
   }
+  .doctors-banner .container-fluid {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
 }
 .gallery-banner {
   font-family: "Poppins", sans-serif;
